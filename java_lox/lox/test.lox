@@ -1,0 +1,20 @@
+class Math {
+      class square(n) {
+        return n * n;
+    }
+}
+
+print Math.square(3); // Prints "9".
+
+class Circle {
+    init(radius) {
+        self.radius = radius;
+    }
+
+    area {
+        return 3.1415926535 * self.radius * self.radius;
+    }
+}
+
+var circle = Circle(4);
+print circle.area;
